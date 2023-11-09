@@ -123,5 +123,436 @@
     <br>
     <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp">w3.css</a></p>
     </footer>
+style{
+    *{
+    padding: 0;
+    margin: 0;
+}
+.nav{
+    width: 100%;
+    height: 50px;
+    position: fixed;
+    background-color:#fff;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+    display: flex;
+    z-index: 5;
+
+}
+.nav   a{
+    text-decoration: none;
+    color: #000;
+    padding: 14px 24px;
+    font-family: "Lato", sans-serif; 
+    font-size: 15px;
+    text-align: center;
+    letter-spacing: 4px;
+}
+
+
+
+
+.nav  a:hover{
+    background-color: gray;
+    padding: 14px 24px;
+    text-align: center;
+    text-decoration: none;
+    color: inherit;
+    font-family: "Lato", sans-serif; 
+
+    text-align: center;                                 
+    cursor: pointer;
+    font-size: 15px;
+
+
+}
+
+ #o{
+    margin-right: 910px;
+    padding: 14px 4px;
+    font-family: Verdana,sans-serif;
+    letter-spacing: 4px
+
+}
+.header{
+    width: 100%;
+    height: 100vh;
+}
+.header img{
+    width: 100%;
+
+}
+.about{
+    width: 100%;
+    height: 100vh;
+
+}
+.about  .main{
+    height: 100%;
+    width: 70%;
+    margin: auto;
+    display: flex;
+}
+.about .main .image img{
+    width: 100%;
+    
+    margin-bottom:50px;
+
+}
+.about .main .text p{
+     margin-left: 50px;
+}
+.about .main .text h1{
+    margin-left: 50px;
+}
+.about .main .text h2{
+    font-family: "Playfair Display";
+    letter-spacing: 5px;
+    text-align: center!important;
+    font-weight: 400;
+    margin: 30px 0;
+
+}
+.about1{
+    width: 100%;
+    height: 100vh;
+
+}
+.about1  .main1{
+    height: 100%;
+    width: 70%;
+    margin: auto;
+    display: flex;
+}
+.about1 .main1 .image1 img{
+    width: 100%;
+    
+    margin-bottom:50px;
+
+}
+
+.about1 .main1 .text1 h3{
+    font-family: "Segoe UI",Arial,sans-serif;
+    font-family: "Playfair Display";
+    letter-spacing: 5px;
+
+    margin: 10px ;
+}
+.about1 .main1 .text1 p{
+color: #757575!important;
+box-sizing: inherit;
+margin: 40px;
+
+
+}
+.about .main .text h1{    
+    font-size: 36px;
+    font-weight: 400;
+    margin: 10px 0;
+    font-family: "Playfair Display";
+    letter-spacing: 5px;
+    text-align: center!important;
+}
+.about1 .main1 .text1 h1{    
+    font-size: 36px;
+    font-weight: 400;
+    margin: 30px ;
+    font-family: "Playfair Display";
+    letter-spacing: 5px;
+    text-align: center!important;
+}
+.about .main .text p{
+    box-sizing: inherit;
+    font-size: 18px!important;
+}
+.about2{
+    width: 100%;
+    height: 30vh;
+
+}
+.about2  .main2{
+    height: 100%;
+    width: 70%;
+    margin: auto;
+    display: flex;
+}
+.about2 .main2 .text2 h3{
+    color: #607d8b!important;
+    
+}
+.about2 .main2 .text2 h1{
+font-family: "Playfair Display";
+letter-spacing: 5px;
+font-weight: 400;
+margin: 10px 0;
+font-size: 36px;
+}
+.about3 .main3 .text3 input{
+    width: 100%;
+    height:  50px;
+    border: none;
+    border-bottom: 1px solid #ccc;
+}
+#btton{
+    color: #000!important;
+    background-color: #f1f1f1;
+    margin-top: 16px!important;
+    margin-bottom: 16px!important;
+    font: inherit;
+    white-space: nowrap;
+    font-family: "Times New Roman", Georgia, Serif;
+    height: 50px;
+    width: 150px;
+    border: none;
+}
+#btton:hover{
+    background-color: gray;
+}
+.about3{
+    width: 100%;
+    height: 70vh;
+
+}
+.about3  .main3{
+    height: 100%;
+    width: 70%;
+    margin: auto;
+    display: flex;
+}
+.about3  .main3 .text3{
+    height: 100%;
+    width: 100%;
+
+}
+footer{
+    width: 100%;
+    height: 20vh;
+    background-color: #f1f1f1;
+    text-align: center;
+}
+footer p a{
+    color: #000;
+
+}
+footer p a:hover{
+    color: lightgreen;
+}
+@media only screen and (max-device-width:1129px) {
+     #o{
+    margin-right: 380px;
+    padding: 14px 4px;
+    font-family: Verdana,sans-serif;
+    letter-spacing: 4px
+
+    }
+    .header {
+        width: 100%;
+        height: auto
+    }
+    .header img{
+        width: 100%;
+    
+    }
+    .about{
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+    .about  .main{
+        width: 70%;
+        margin: auto;
+        display: block;
+        flex-wrap:wrap ;
+    }
+    .about .main .image img{
+        width: 100%;
+        
+        margin-bottom:50px;
+    
+    }
+    .about .main .text p{
+         margin-left: 50px;
+    }
+    .about .main .text h1{
+        margin-left: 50px;
+    }
+    .about .main .text h2{
+        font-family: "Playfair Display";
+        letter-spacing: 5px;
+        text-align: center!important;
+        font-weight: 400;
+        margin: 30px 0;
+    
+    }
+    .about .main .text p{
+        box-sizing: inherit;
+        font-size: 18px!important;
+    }
+    .about1{
+        width: 100%;
+        height: auto;
+    
+    }
+    .about1  .main1{
+        height: auto;
+        width: 70%;
+        margin: auto;
+        display: block;
+        flex-wrap: wrap;
+    }
+    .about2{
+    width: 100%;
+    height: auto;
+
+    }
+    .about2  .main2{
+    height: 100%;
+    width: 70%;
+    margin: auto;
+    display: flex;
+    }
+    .about2 .main2 .text2 h3{
+    color: #607d8b!important;
+    
+    }
+    .about2 .main2 .text2 h1{
+    font-family: "Playfair Display";
+    letter-spacing: 5px;
+    font-weight: 400;
+    margin: 10px 0;
+    font-size: 36px;
+    }
+    .about3{
+    width: 100%;
+    height: auto;
+
+    }
+    .about3  .main3{
+    height: 100%;
+    width: 70%;
+    margin: auto;
+    display: flex;
+    }
+    .about3  .main3 .text3{
+    height: 100%;
+    width: 100%;
+
+    }
+    #btton{
+        color: #000!important;
+        background-color: #f1f1f1;
+        margin-top: 16px!important;
+        margin-bottom: 16px!important;
+        font: inherit;
+        white-space: nowrap;
+        font-family: "Times New Roman", Georgia, Serif;
+        height: 50px;
+        width: 150px;
+        border: none;
+        margin-bottom: 300px;
+    }
+}
+@media only screen and (min-device-width:320px) and (max-device-width:720px) {
+     #o{
+    margin-right: 370px;
+    padding: 14px 4px;
+    font-family: Verdana,sans-serif;
+    letter-spacing: 4px
+
+    }
+    .header {
+        width: 100%;
+        height: auto
+    }
+    .header img{
+        width: 100%;
+    
+    }
+    .about{
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+    .about  .main{
+        width: 70%;
+        margin: auto;
+        display: block;
+        flex-wrap:wrap ;
+    }
+    .about .main .image img{
+        width: 100%;
+        
+        margin-bottom:50px;
+    
+    }
+    .about .main .text p{
+         margin-left: 50px;
+    }
+    .about .main .text h1{
+        margin-left: 50px;
+    }
+    .about .main .text h2{
+        font-family: "Playfair Display";
+        letter-spacing: 5px;
+        text-align: center!important;
+        font-weight: 400;
+        margin: 30px 0;
+    
+    }
+    .about .main .text p{
+        box-sizing: inherit;
+        font-size: 18px!important;
+    }
+    .about1{
+        width: 100%;
+        height: auto;
+    
+    }
+    .about1  .main1{
+        height: auto;
+        width: 70%;
+        margin: auto;
+        display: block;
+        flex-wrap: wrap;
+    }
+    .about2{
+    width: 100%;
+    height: auto;
+
+    }
+    .about2  .main2{
+    height: 100%;
+    width: 70%;
+    margin: auto;
+    display: flex;
+    }
+    .about2 .main2 .text2 h3{
+    color: #607d8b!important;
+    
+    }
+    .about2 .main2 .text2 h1{
+    font-family: "Playfair Display";
+    letter-spacing: 5px;
+    font-weight: 400;
+    margin: 10px 0;
+    font-size: 36px;
+    }
+    .about3{
+    width: 100%;
+    height: auto;
+
+    }
+    .about3  .main3{
+    height: 100%;
+    width: 70%;
+    margin: auto;
+    display: flex;
+    }
+    .about3  .main3 .text3{
+    height: 100%;
+    width: 100%;
+
+    }
+}
+}
 </body>
 </html>
